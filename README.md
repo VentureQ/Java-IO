@@ -1,6 +1,6 @@
 MyServer服务端实现类，在该类中定义了
 
-> **serverSocketChannel:** 用于`ServerSocketChannel`的简历和端口的绑定；
+> **serverSocketChannel: ** 用于`ServerSocketChannel`的简历和端口的绑定；
 >
 > **byteBuffer: ** 用于不同`Channel`之间的数据交互；
 >
@@ -11,9 +11,9 @@ MyServer服务端实现类，在该类中定义了
 
 定义MyClient类来实现客户端的`Channel`逻辑。其中，
 
-> **connectServer:**方法用于和服务端建立连接，
+> **connectServer: ** 方法用于和服务端建立连接，
 >
-> **receive:**方法用于接收服务端发来的数据，
+> **receive: ** 方法用于接收服务端发来的数据，
 >
-> **send2Server：**用于想服务器发送数据。
+> **send2Server：** 用于想服务器发送数据。
 
